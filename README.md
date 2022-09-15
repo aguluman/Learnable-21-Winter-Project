@@ -1,10 +1,17 @@
-# learnable-21
-A bank api
+# Learnable-21
 
-a bank api, that asks for login on the landing page.
+A Restful Api designed for a Bank.
 
-then the add sign at the botttom is to perform a transaction.
+The API performs CRUD requests for the user
 
-the side navigation bar, has 3 option: Transaction History, Perform Transaction and Log out.
+The bank api, handles User Login/Sign-Up using Google's OAuth API.
 
-all sessions are recoreded on mongoDB database
+The User can create a transaction request, i.e making a transfer to another bank.
+
+The API routes handles 
+  -Transaction History, 
+  -Transaction Performance, whether the money sent is successful or failed
+  -Log out(end a session).
+
+The Database model was created with Mongoose and recorded on MongoDB.
+
